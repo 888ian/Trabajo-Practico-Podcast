@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1d522859ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Podcast</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.svg" alt="logo" class="logo" />
+        ​
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        ​
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        ​
+        <ul class="menu">
+          <li><a href="#episodios">EPISODIOS</a></li>
+          <li><a href="#nosotros">NOSOTROS</a></li>
+          <li><a href="#entrevistas">ENTREVISTAS</a></li>
+          <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section>
+        <div class="hero">
+          <div class="hero-h1-container">
+            <h1 class="hero-title1">Hello <span>world</span> </h1>
+            <h1 class="hero-title2">pale blue dot<span class="dot">.</span></h1>
+          </div>
+          <p class="hero-text">
+            <span class="hero-text-mobile">
+              Un podcast que explora el mundo de la programación. Nuevos
+              episodios, todos los jueves cada 15 días.</span
+            >
+            <span class="hero-text-desk">
+              El portal de podcasts que explora el mundo de la programación y la
+              tecnología. Nuevos episodios, todos los jueves cada 15 días.
+            </span>
+          </p>
+          <button class="hero-butt" type="button">conocé más</button>
+        </div>
+      </section>
+      <!--EPISODIOS-->
+      <section>
+        <div class="eps-skew">
+          <div class="eps-container" id="episodios">
+            <h2 class="eps-title">Episodios</h2>
+
+            <div class="iframes-flexbox">
+              <iframe
+                class="iframes"
+                title="iframe It's just JavaScript"
+                src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+                allow="encrypted-media"
+              ></iframe>
+
+              <iframe
+                class="iframes"
+                title="iframe The Fundamentals"
+                src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+                allow="encrypted-media"
+              ></iframe>
+
+              <iframe
+                class="iframes"
+                title="iframe The Open Office"
+                src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+                allow="encrypted-media"
+              ></iframe>
+
+              <iframe
+                class="iframes"
+                title="iframe 277"
+                src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--NOSOTROS-->
+      <section>
+        <div class="nos" id="nosotros">
+          <img
+            class="nos-img"
+            src="/img/phone.png"
+            alt="Imagen de un telefono con un diario abierto adentro"
+          />
+          <div class="nos-title-text-flexbox">
+            <div class="nos-title-flexbox">
+              <h2 class="nos-title1">De dónde</h2>
+              <h2 class="nos-title2">venimos</h2>
+            </div>
+            <div class="nos-text-flexbox">
+              <p class="nos-text1">
+                Our posturings, our imagined self-importance, the delusion that
+                we have some privileged position in the Universe, are challenged
+                by this point of pale light.
+              </p>
+              <p class="nos-text2">
+                Our planet is a lonely speck in the great enveloping cosmic
+                dark. In our obscurity, in all this vastness, there is no hint
+                that help will come from elsewhere to save us from ourselves.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--INVITADOS-->
+      <section>
+        <div class="entrevistas-container" id="entrevistas">
+          <h2 class="entrevistas-title">Invitadas/os estelares</h2>
+          <div class="prueba">
+            <div class="entrevistas-img-flexbox">
+              <img
+                class="entrevistas-img"
+                src="/img/grace-hopper.png"
+                alt="Grace Hopper looking cool"
+              />
+              <img
+                class="entrevistas-img"
+                src="/img/Katie-Bouman.png"
+                alt="Katie Bouman hugging discs"
+              />
+              <img
+                class="entrevistas-img"
+                src="/img/Margaret_Hamilton.png"
+                alt="Margaret Hamilton Bookworm"
+              />
+              <img
+                class="entrevistas-img"
+                src="/img/Big-Brain-Computer.png"
+                alt="An E.R.A.Univac 1103 computer in the 1950s"
+              />
+              <img
+                class="entrevistas-img"
+                src="/img/Ladies-with-Cables.png"
+                alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer"
+              />
+              <img
+                class="entrevistas-img"
+                src="/img/susan-kare.png"
+                alt="Susan Kare cares about you"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--TOPICOS-->
+      <section>
+        <div class="topicos" id="topicos">
+          <h2 class="topicos-title">Algunos de nuestros temas</h2>
+          <div class="topicos-img-flexbox">
+            <div class="topicos-img-text">
+              <img
+                src="/img/icon1.svg"
+                alt="This is where I put my documents"
+              />
+              <p class="topicos-text">Trabajo remoto</p>
+            </div>
+
+            <div class="topicos-img-text">
+              <img src="/img/icon2.svg" alt="I never asked for this" />
+              <p class="topicos-text">
+                <span class="topicos-span">Repensando la</span>
+                <span class="topicos-span"> programación</span>
+              </p>
+            </div>
+
+            <div class="topicos-img-text">
+              <img
+                src="/img/icon3.svg"
+                alt="Text size for people with bad eyesight"
+              />
+              <p class="topicos-text">Bases del código</p>
+            </div>
+
+            <div class="topicos-img-text">
+              <img
+                src="/img/icon4.svg"
+                alt="Okay I don't even know what that's supposed to be"
+              />
+              <p class="topicos-text">
+                <span class="topicos-span-desktop">Seguridad </span>
+                <span class="topicos-span-desktop">informática </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--NOVEDADES-->
+      <section >
+        <div class="novedades-skew">
+          <div class="novedades">
+            <h2 class="novedades-text">¿Querés las últimas novedades?</h2>
+            <button class="novedades-butt" type="button">
+              escuchá los episodios
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!--FOOTER-->
+      <div class="footer">
+        <p class="footer-text">© 2019— Hello blue pale dot</p>
+        <div class="footer-icons-flexbox">
+          <a href="https://www.spotify.com">
+            <span class="footer-icon">
+              <i class="fab fa-spotify footer icon"></i>
+            </span>
+          </a>
+
+          <a href="https://www.instagram.com">
+            <span class="footer-icon">
+              <i class="fab fa-instagram footer icon"></i>
+            </span>
+          </a>
+
+          <a href="https://twitter.com">
+            <span class="footer-icon">
+              <i class="fab fa-twitter footer icon"></i>
+            </span>
+          </a>
+
+          <a href="https://fb.com/">
+            <span class="footer-icon">
+              <i class="fab fa-facebook footer icon"></i>
+            </span>
+          </a>
+
+          <a href="https://telegram.org/">
+            <span class="footer-icon">
+              <i class="fab fa-telegram footer icon"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
